@@ -1,0 +1,2 @@
+class BloodDrivesController < ApplicationController
+end
