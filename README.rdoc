@@ -1,4 +1,4 @@
-# Blood Bank Finder
+Blood Bank Finder
 
 Find local blood drives and blood banks.  Be notified of of nearby blood drives/banks in intervals you can choose.
 
