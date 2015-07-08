@@ -3,7 +3,7 @@ require 'open-uri'
 class BloodBanksController < ApplicationController
 
   def self.uri
-    html_file = open('http://www.redcrossblood.org/give/drive/driveSearchList.jsp?zipSponsor=60613&range=10&zipFormat=true&sd=07/09/2015&ed=07/22/2015&dt=WB:DR:PL&&_requestid=371723')
+    html_file = open('https://donateblood.lifesource.org/SearchLocation.aspx?q=Chicago%2c+IL+60613%2c+USA&lat=41.9577761&lng=-87.6556468&d=5&start=07/08/2015&end=08/08/2015')
     puts html_file.read
   end
 
