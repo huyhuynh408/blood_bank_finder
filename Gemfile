@@ -45,4 +45,4 @@ end
 
 gem 'rspec'
 gem 'capybara'
-
+gem 'nokogiri'
