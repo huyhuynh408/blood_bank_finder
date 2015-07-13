@@ -46,3 +46,4 @@ end
 gem 'rspec'
 gem 'capybara'
 gem 'nokogiri'
+gem 'better_errors'
