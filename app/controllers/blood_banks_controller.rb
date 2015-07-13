@@ -10,4 +10,7 @@ class BloodBanksController < ApplicationController
     puts doc.search('.grid_12 > tr > td').map { |span| span.inner_text}
   end
 
+  def self.parser
+  end
+
 end
